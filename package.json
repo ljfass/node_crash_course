@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ljfass/node_crash_course/issues"
   },
-  "homepage": "https://github.com/ljfass/node_crash_course#readme"
+  "homepage": "https://github.com/ljfass/node_crash_course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
